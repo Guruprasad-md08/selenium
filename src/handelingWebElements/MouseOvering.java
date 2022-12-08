@@ -24,8 +24,8 @@ public class MouseOvering {
 		Thread.sleep(2000);
 		
 		WebElement samsung = driver.findElement(By.xpath("//a[text()='Samsung']"));
-		samsung.click();
-		//action.doubleClick(samsung).perform();
+		//samsung.click();
+		action.doubleClick(samsung).perform();
 		driver.quit();
 	}
 
